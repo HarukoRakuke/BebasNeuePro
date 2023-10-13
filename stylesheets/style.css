@@ -1,0 +1,42 @@
+@import url('reset.css');
+@import url('layout.css');
+
+/* палитра цветов:
+#3F304F - чернила,
+#D82163 - малиновый,
+#6ABAD9 - голубой,
+*/
+
+/* подключение шрифтов  */
+
+@font-face {
+  font-family: 'BebasNeuePro-Bold'; /* название шрифта */
+  src: url(../fonts/BebasNeuePro-Bold.ttf); /* ссылка на файл */
+}
+@font-face {
+  font-family: 'BebasNeuePro-SemiExpXBold'; /* название шрифта */
+  src: url(../fonts/BebasNeuePro-SemiExpXBold.ttf); /* ссылка на файл */
+}
+@font-face {
+  font-family: 'BebasNeuePro-Regular'; /* название шрифта */
+  src: url(../fonts/BebasNeuePro-Regular.ttf); /* ссылка на файл */
+}
+@font-face {
+  font-family: 'BebasNeuePro-ExpandedExtraBold'; /* название шрифта */
+  src: url(../fonts/BebasNeuePro-ExpandedExtraBold.ttf); /* ссылка на файл */
+}
+
+@font-face {
+  font-family: 'BebasNeuePro-Book'; /* название шрифта */
+  src: url(../fonts/BebasNeuePro-Book.ttf); /* ссылка на файл */
+}
+
+@font-face {
+  font-family: 'BebasNeuePro-Italic'; /* название шрифта */
+  src: url(../fonts/BebasNeuePro-Italic.ttf); /* ссылка на файл */
+}
+
+@font-face {
+  font-family: 'BebasNeuePro-BoldItalic'; /* название шрифта */
+  src: url(../fonts/BebasNeuePro-BoldItalic.ttf); /* ссылка на файл */
+}

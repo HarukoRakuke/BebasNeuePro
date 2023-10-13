@@ -1,0 +1,533 @@
+html {
+  background: #3f304f;
+  display: block;
+}
+body {
+  width: 1440px;
+  height: 11909px;
+  background-color: #3f304f;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  border: white 10px solid;
+}
+/* секция с припаркованной машиной */
+.parkingscreen {
+  height: 1672px;
+  width: 100%;
+  position: relative;
+  background: url(../images/car-and-diner.svg);
+}
+
+.pro {
+  color: #d82163;
+  font-family: 'BebasNeuePro-Bold';
+  font-size: 146.53px;
+  top: 188px;
+  left: 398px;
+  position: absolute;
+}
+.font {
+  color: #3f304f;
+  font-family: 'BebasNeuePro-SemiExpXBold';
+  font-size: 62.33px;
+  top: 320px;
+  left: 650px;
+  position: absolute;
+}
+.maintitle {
+  color: white;
+  font-family: 'BebasNeuePro-Bold';
+  font-size: 182.46px;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: #3f304f;
+  top: 390px;
+  left: 380px;
+  position: absolute;
+}
+.font_description {
+  color: #3f304f;
+  font-family: 'BebasNeuePro-BoldItalic';
+  font-size: 77px;
+  top: 640px;
+  left: 300px;
+  position: absolute;
+}
+/* номер машины */
+.car-sign {
+  width: 280px;
+  height: 113.81px;
+  top: 1350px;
+  position: absolute;
+  left: 750px;
+  color: #3f304f;
+}
+.car-sign p {
+  font-family: 'BebasNeuePro-Regular';
+  font-size: 36.98px;
+  text-align: center;
+  padding: 5px;
+}
+
+.car-sign h1 {
+  font-family: 'BebasNeuePro-Bold';
+  font-size: 74.61px;
+  text-align: center;
+  margin-top: -5px;
+}
+/* секция с меню */
+.menu {
+  height: 1049px;
+  width: 100%;
+  position: relative;
+  background-color: #d82163;
+}
+/* верхняя шапка меню */
+.menu_header {
+  height: 205px;
+  width: 100%;
+  background: url(../images/menu_header.svg);
+  font-size: 172.09px;
+  text-align: center;
+  font-family: 'BebasNeuePro-ExpandedExtraBold';
+  color: #d82163;
+  position: relative;
+}
+.menu_header h1 {
+  padding: 15px;
+}
+.menu_main_part {
+  height: 609px;
+  width: 100%;
+  background-color: #d82163;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu_item {
+  padding: 23px;
+  color: #3f304f;
+}
+
+.menu_price {
+  padding: 23px;
+  text-align: right;
+  color: #d82163;
+}
+#left,
+#up,
+#down,
+.letterset_box {
+  border-radius: 2%;
+}
+#left {
+  width: 498px;
+  height: 521px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 81.87px;
+  font-family: 'BebasNeuePro-Bold';
+}
+
+#center {
+  width: 276px;
+  height: 521px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#right {
+  width: 503px;
+  height: 521px;
+  background: url(../images/comix_bubble.svg);
+  padding-right: 20px; /* чтобы бабл справа не "съедался" */
+}
+#up {
+  width: 100%;
+  height: 216px;
+  background-color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#up img {
+  height: 80%;
+}
+
+#down {
+  width: 100%;
+  height: 284px;
+  background-color: white;
+  font-size: 81.87px;
+  font-family: 'BebasNeuePro-Bold';
+  text-align: center;
+  align-items: center;
+  display: flex;
+  color: #3f304f;
+}
+
+/* прозрачный прямоугольник внутри бабла */
+.bubble_div {
+  width: 391.19px;
+  height: 249.87px;
+  transform: rotateZ(-25deg);
+  margin-left: 70px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  color: #3f304f;
+  font-family: 'BebasNeuePro-Bold';
+}
+
+/* разбивка текста на 3 ряда, т.к. они разной ширины */
+.bubble_div div:nth-of-type(1) {
+  font-size: 63px;
+}
+.bubble_div div:nth-of-type(2) {
+  font-size: 102px;
+}
+.bubble_div div:nth-of-type(3) {
+  font-size: 88px;
+}
+
+.menu_footer {
+  background-color: #6abad9;
+  height: 235px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.letterset_box {
+  width: 339px;
+  height: 166px;
+  background-color: white;
+  align-self: center;
+  margin: 0 35px;
+  text-align: right;
+  position: relative;
+  color: #3f304f;
+}
+
+.letterset_box h3 {
+  font-family: 'BebasNeuePro-Bold';
+  font-size: 45px;
+  padding: 20px;
+}
+
+.letterset_box p {
+  font-family: 'BebasNeuePro-Book';
+  font-size: 42px;
+  padding: 20px;
+}
+.small_g p,
+.big_g p,
+.small_d p,
+.big_d p,
+.big_xi p,
+.small_xi p {
+  z-index: 1;
+  position: absolute;
+  font-family: 'BebasNeuePro-ExpandedExtraBold';
+  font-size: 150px;
+}
+/* сет с латиницей */
+.big_g p {
+  left: -45px;
+  top: -20px;
+}
+.small_g p {
+  transform: rotate(20deg);
+  left: 50px;
+  top: 10px;
+}
+
+/* сет с кириллицей */
+.big_d p {
+  transform: rotate(-10deg);
+  left: -45px;
+  top: -20px;
+}
+.small_d p {
+  transform: rotate(20deg);
+  left: 70px;
+  top: 20px;
+}
+
+/* сет с греческим */
+.big_xi p {
+  transform: rotate(20deg);
+  left: -20px;
+  top: -30px;
+}
+
+.small_xi p {
+  transform: rotate(-40deg);
+  left: 80px;
+  top: 30px;
+}
+
+/* секция со шрифтовой инфографикой */
+.font_infographic_screen {
+  height: 1320px;
+  width: 100%;
+  position: relative;
+}
+
+.letter_info {
+  height: 50%;
+  width: 1100px;
+  margin: 0 auto;
+  background-color: #3f304f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -250px;
+  margin-top: 150px;
+  color: white;
+}
+
+.big_letter {
+  font-size: 636px;
+  font-family: 'BebasNeuePro-Bold';
+  position: relative;
+}
+
+.big_letter:nth-of-type(1) {
+  color: #6abad9;
+  margin-left: -25px;
+}
+
+.big_letter:nth-of-type(2) {
+  color: #d82163;
+  margin-right: -25px;
+}
+
+.letter_description h1 {
+  font-size: 145px;
+  font-family: 'BebasNeuePro-BoldItalic';
+}
+
+.letter_description p {
+  font-size: 74px;
+  width: 700px;
+  font-family: 'BebasNeuePro-Italic';
+}
+.big_letter:nth-of-type(1)::before {
+  top: 25px;
+  position: absolute;
+  content: url(../images/letter_i_arrows.png);
+}
+
+.big_letter:nth-of-type(2)::before {
+  top: 5px;
+  right: 190px;
+  position: absolute;
+  content: url(../images/letter_ya_arrows.png);
+}
+/* экран с глифами в виде жвачек  */
+.glyphs_gummachine_screen {
+  height: 1529px;
+  width: 100%;
+  position: relative;
+}
+.sparkle_background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(../images/sparkle_background.svg);
+  display: block;
+}
+header:nth-of-type(3) {
+  background: url(../images/3header.svg);
+  color: white;
+}
+header:nth-of-type(2) {
+  background: url(../images/2header.svg);
+  color: white;
+}
+header:nth-of-type(1) {
+  background: url(../images/1header.svg);
+  color: #3f304f;
+}
+header {
+  height: 393px;
+  width: 100%;
+  position: relative;
+  display: block;
+}
+
+header h1,
+header p {
+  font-family: 'BebasNeuePro-ExpandedExtraBold';
+  margin-left: 40px;
+}
+header h1 {
+  font-size: 180px;
+  position: absolute;
+  top: 28.2px;
+}
+header p {
+  font-size: 129.18px;
+  position: absolute;
+  top: 190.5px;
+}
+
+.glyphs_gummachine_screen aside {
+  height: 825px;
+  width: 558px;
+  position: relative;
+  top: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: inline-block;
+}
+.small_gum,
+.medium_gum,
+.big_gum {
+  position: absolute;
+  border-radius: 100%;
+  background-color: #6abad9;
+  font-family: 'BebasNeuePro-BoldItalic';
+  text-align: center;
+  color: white;
+}
+.small_gum {
+  height: 192.61px;
+  width: 192.61px;
+  right: 150px;
+  font-size: 190px;
+  transform: rotate(30deg);
+}
+.medium_gum {
+  height: 253.06px;
+  width: 253.06px;
+  right: -20px;
+  top: 260px;
+  font-size: 253.67px;
+  transform: rotate(-20deg);
+}
+
+.big_gum {
+  height: 351.3px;
+  width: 351.3px;
+  left: 50px;
+  top: 500px;
+  font-size: 352.14px;
+  transform: rotate(10deg);
+}
+.medium_gum p {
+  margin-top: -10px;
+}
+.glyphs_gummachine_screen main {
+  height: 1302.78px;
+  width: 646px;
+  position: relative;
+  top: 88px;
+  display: inline-block;
+  background: url(../images/gum_machine.png);
+}
+.gum_title {
+  width: 50px;
+  height: 20px;
+  top: 10px;
+  left: 210px;
+  position: absolute;
+  color: white;
+  font-family: 'BebasNeuePro-ExpandedExtraBold';
+  font-size: 67.96px;
+}
+
+.gummachine_сell {
+  height: 560px;
+  width: 580px;
+  top: 260px;
+  left: 40px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  transform: rotate(15deg);
+}
+.gum_item {
+  height: 125px;
+  width: 125px;
+  border-radius: 100%;
+  background-color: #6abad9;
+  position: relative;
+  margin: 10px;
+  font-size: 120.29px;
+  font-family: 'BebasNeuePro-BoldItalic';
+  color: white;
+  text-align: center;
+}
+/* расставляю шарики так, чтобы повторяли макет */
+.gum_item:nth-of-type(1) {
+  top: 85px;
+  left: 10px;
+  transform: rotate(-20deg);
+}
+.gum_item:nth-of-type(2) {
+  left: -10px;
+  top: 5px;
+  transform: rotate(-30deg);
+}
+.gum_item:nth-of-type(3) {
+  top: -5px;
+  transform: rotate(-30deg);
+}
+
+.gum_item:nth-of-type(4) {
+  left: -10px;
+  top: 100px;
+}
+.gum_item:nth-of-type(5) {
+  top: 105px;
+  left: -20px;
+}
+
+.gum_item:nth-of-type(7) > p {
+  margin-right: 15px;
+}
+
+.gum_item:nth-of-type(8) {
+  top: 120px;
+  left: 10px;
+}
+
+.gum_item:nth-of-type(9) {
+  top: 115px;
+  left: 70px;
+  transform: rotate(-50deg);
+}
+.gum_item:nth-of-type(9) > p {
+  margin: -10px;
+}
+
+.gum_item:nth-of-type(10) {
+  top: -10px;
+  left: -10px;
+}
+.gum_item:nth-of-type(11) {
+  transform: rotate(-50deg);
+}
+.gum_item:nth-of-type(12) {
+  right: 65px;
+  top: 105px;
+  transform: rotate(-30deg);
+}
+.gum_item:nth-of-type(13) {
+  left: 8px;
+  top: 15px;
+  transform: rotate(-10deg);
+}
+.gum_item:nth-of-type(13) > p {
+  margin: -15px;
+}
