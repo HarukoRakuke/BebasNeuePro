@@ -1,14 +1,21 @@
-<svg width="1440" height="205" viewBox="0 0 1440 205" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="path-1-inside-1_57_1964" fill="white">
-<rect x="-10" width="1461" height="205" rx="5"/>
+<svg width="1360" height="204" viewBox="0 0 1360 204" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_328_2916)">
+<mask id="path-1-inside-1_328_2916" fill="white">
+<rect x="-42" y="-1" width="1446" height="205" rx="5"/>
 </mask>
-<rect x="-10" width="1461" height="205" rx="5" fill="white" stroke="#D82163" stroke-width="60" mask="url(#path-1-inside-1_57_1964)"/>
-<path d="M962.5 70H1433" stroke="#D82163" stroke-width="30"/>
-<path d="M962.5 70H1433" stroke="#D82163" stroke-width="30"/>
-<path d="M962 127H1432.5" stroke="#D82163" stroke-width="30"/>
-<path d="M962 127H1432.5" stroke="#D82163" stroke-width="30"/>
-<path d="M7 70H477.5" stroke="#D82163" stroke-width="30"/>
-<path d="M7 70H477.5" stroke="#D82163" stroke-width="30"/>
-<path d="M7 127H477.5" stroke="#D82163" stroke-width="30"/>
-<path d="M7 127H477.5" stroke="#D82163" stroke-width="30"/>
+<rect x="-42" y="-1" width="1446" height="205" rx="5" fill="white" stroke="#FF123D" stroke-width="60" mask="url(#path-1-inside-1_328_2916)"/>
+<path d="M920.516 69H1386.19" stroke="#FF123D" stroke-width="30"/>
+<path d="M920.516 69H1386.19" stroke="#FF123D" stroke-width="30"/>
+<path d="M920.021 126H1385.69" stroke="#FF123D" stroke-width="30"/>
+<path d="M920.021 126H1385.69" stroke="#FF123D" stroke-width="30"/>
+<path d="M-25.1748 69H440.495" stroke="#FF123D" stroke-width="30"/>
+<path d="M-25.1748 69H440.495" stroke="#FF123D" stroke-width="30"/>
+<path d="M-25.1748 126H440.495" stroke="#FF123D" stroke-width="30"/>
+<path d="M-25.1748 126H440.495" stroke="#FF123D" stroke-width="30"/>
+</g>
+<defs>
+<clipPath id="clip0_328_2916">
+<rect width="1360" height="204" fill="white"/>
+</clipPath>
+</defs>
 </svg>

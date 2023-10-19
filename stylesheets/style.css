@@ -2,9 +2,9 @@
 @import url('layout.css');
 
 /* палитра цветов:
-#3F304F - чернила,
-#D82163 - малиновый,
-#6ABAD9 - голубой,
+#1B0C0C - черный,
+#FF123D - малиновый,
+#8DD3FA - голубой,
 */
 
 /* подключение шрифтов  */
@@ -39,4 +39,29 @@
 @font-face {
   font-family: 'BebasNeuePro-BoldItalic'; /* название шрифта */
   src: url(../fonts/BebasNeuePro-BoldItalic.ttf); /* ссылка на файл */
+}
+
+@font-face {
+  font-family: 'BebasNeuePro-BookItalic'; /* название шрифта */
+  src: url(../fonts/BebasNeuePro-BookItalic.ttf); /* ссылка на файл */
+}
+@font-face {
+  font-family: 'BebasNeuePro-ExpandedExtraBoldIt'; /* название шрифта */
+  src: url(../fonts/BebasNeueProExpandedExtraBoldIt.ttf); /* ссылка на файл */
+}
+@font-face {
+  font-family: 'BebasNeuePro-Light'; /* название шрифта */
+  src: url(../fonts/BebasNeuePro-Light.ttf); /* ссылка на файл */
+}
+@font-face {
+  font-family: 'BebasNeuePro-SemiExpBoldItalic'; /* название шрифта */
+  src: url(../fonts/BebasNeuePro-SemiExpBoldItalic.ttf); /* ссылка на файл */
+}
+@font-face {
+  font-family: 'BebasNeuePro-Middle'; /* название шрифта */
+  src: url(../fonts/BebasNeuePro-Middle.ttf); /* ссылка на файл */
+}
+@font-face {
+  font-family: 'BebasNeuePro-Thin'; /* название шрифта */
+  src: url(../fonts/BebasNeuePro-Thin.ttf); /* ссылка на файл */
 }
