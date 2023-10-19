@@ -974,10 +974,12 @@ section {
   margin-left: 40px;
 }
 .buble_header {
+  position: absolute;
+  z-index: 1;
   width: 948.21px;
   height: 579px;
   margin-left: 250px;
-  margin-top: 100px;
+  margin-top: 50px;
   font-family: 'BebasNeuePro-ExpandedExtraBold';
   background: url(../images/buble_header.png);
 }
@@ -997,4 +999,254 @@ section {
 }
 .buble_text div:nth-of-type(3) {
   font-size: 77px;
+}
+/* экран с пинболлом и цифрами */
+.pinball_screen {
+  height: 1417px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.pinball {
+  width: 765px;
+  height: 1190px;
+  background: url(../images/pinball.svg);
+}
+.arrows {
+  width: 399px;
+  height: 1178px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.arrows > div {
+  width: 400px;
+  height: 310px;
+  font-size: 83px;
+  font-family: 'BebasNeuePro-Bold';
+  box-sizing: border-box;
+  padding: 110px 30px 0px 30px;
+}
+
+.arrows div:nth-of-type(1) {
+  background: url(../images/red_arrow.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: right;
+  color: white;
+  text-shadow: #1b0c0c 5px 5px;
+}
+.arrows div:nth-of-type(2) {
+  background: url(../images/white_arrow.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.arrows div:nth-of-type(3) {
+  background: url(../images/blue_arrow.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: right;
+  color: white;
+  text-shadow: #1b0c0c 5px 5px;
+}
+.white_title {
+  width: 184px;
+  height: 67px;
+  background: url(../images/white_label.png);
+  left: 330px;
+  position: absolute;
+  font-family: 'BebasNeuePro-BoldItalic';
+  font-size: 46px;
+  margin-top: 40px;
+  box-sizing: border-box;
+  padding: 10px 20px 0 20px;
+}
+
+#pin_w_arr {
+  width: 119px;
+  height: 155px;
+  background: url(../images/pinball_white_arrow.svg);
+  left: 360px;
+  top: 210px;
+  position: absolute;
+  padding: 80px 33px 0 33px;
+  box-sizing: border-box;
+}
+#pin_r_arr {
+  width: 120px;
+  height: 90px;
+  background: url(../images/pinball_red_arrow.svg);
+  left: 560px;
+  top: 710px;
+  position: absolute;
+  padding: 15px 60px;
+  box-sizing: border-box;
+  color: white;
+}
+
+#pin_b_arr {
+  width: 90px;
+  height: 120px;
+  background: url(../images/pinball_blue_arrow.svg);
+  left: 110px;
+  top: 750px;
+  position: absolute;
+  padding: 5px 17px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.pinball_arrow > h1 {
+  font-family: 'BebasNeuePro-ExpandedBold';
+  font-size: 37px;
+}
+.pinball_arrow > p {
+  font-family: 'BebasNeuePro-ExpandedBold';
+  font-size: 21px;
+}
+.decor {
+  display: flex;
+  position: absolute;
+  width: 318px;
+  height: 105px;
+  left: 260px;
+  top: 290px;
+  justify-content: space-between;
+}
+.pinball_ellipse {
+  width: 55px;
+  height: 105px;
+  background: url(../images/decor_pinball.png);
+  background-size: cover;
+}
+.pinball_ellipse:nth-of-type(2) {
+  margin-top: 90px;
+}
+.pinball_circles {
+  width: 411px;
+  height: 129px;
+  display: flex;
+  justify-content: space-between;
+  left: 210px;
+  top: 410px;
+  position: absolute;
+}
+.pinball_circle {
+  width: 129px;
+  height: 129px;
+  border-radius: 100%;
+  background: #1b0c0c;
+  border: white 5px solid;
+  box-sizing: border-box;
+  font-family: 'BebasNeuePro-Bold';
+  font-size: 110px;
+  color: white;
+  padding: 10px 0px 0px 25px;
+}
+.pinball_circle:nth-of-type(2) {
+  margin-top: 90px;
+  padding: 5px 0px 0px 30px;
+}
+.score_table {
+  width: 100px;
+  height: 290px;
+  bottom: 220px;
+  left: 370px;
+  position: absolute;
+  color: white;
+  font-family: 'BebasNeuePro-Bold';
+  font-size: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.down_button {
+  color: white;
+  font-family: 'BebasNeuePro-Bold';
+  font-size: 120px;
+  bottom: 90px;
+  position: absolute;
+  left: 380px;
+}
+.pinball_description {
+  width: 222px;
+  height: 240px;
+  top: 530px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  left: 100px;
+}
+.red_text_label {
+  width: 160px;
+  height: 70px;
+  background: url(../images/pinball_text_label.svg);
+  color: white;
+  font-family: 'BebasNeuePro-BoldItalic';
+  font-size: 26px;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 20px;
+}
+.red_text_label:nth-of-type(2) {
+  margin-left: 50px;
+  padding-top: 8px;
+}
+.red_text_label:nth-of-type(3) {
+  margin-left: 100px;
+  padding-top: 8px;
+}
+.levers {
+  width: 427px;
+  height: 127px;
+  bottom: 150px;
+  left: 195px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+.lever {
+  width: 100px;
+  height: 100px;
+  background: url(../images/pinball_levers.png);
+  font-family: 'BebasNeuePro-ExpandedBold';
+  font-size: 31px;
+  color: white;
+}
+.lever:nth-of-type(2) {
+  transform: rotate(90deg);
+}
+.lever:nth-of-type(1) > p {
+  transform: rotate(45deg);
+  padding: 30px 0px 0px 20px;
+}
+.lever:nth-of-type(2) > p {
+  transform: rotate(-135deg);
+  margin-top: 30px;
+  margin-right: 8px;
+}
+.pinball_black_circle {
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+  border: 4px white solid;
+  position: absolute;
+  font-family: 'BebasNeuePro-Bold';
+  font-size: 45px;
+  color: white;
+  bottom: 140px;
+  left: 150px;
+  padding: 8px 0 0 14px;
+  box-sizing: border-box;
+}
+#right_circle {
+  left: 580px;
+}
+#top_circle {
+  bottom: 380px;
+  left: 122px;
 }
