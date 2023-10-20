@@ -156,7 +156,6 @@ section {
   height: 681px;
   width: 100%;
   background-color: #ff123d;
-  position: relative;
   display: flex;
   align-items: center;
 }
@@ -1260,7 +1259,6 @@ section {
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
-  position: relative;
   padding: 30px;
   margin-top: -44px;
 }
@@ -1443,7 +1441,7 @@ section {
   width: 560px;
   height: 860px;
   background: url(../images/cash_box.svg);
-  top: -300px;
+  top: -150px;
 }
 .last_screen aside {
   width: 650px;
@@ -1508,7 +1506,6 @@ section {
   flex-wrap: wrap;
   height: 210px;
   width: 220px;
-  position: absolute;
   margin-left: 160px;
 }
 .buttons > div {
