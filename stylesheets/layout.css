@@ -83,7 +83,7 @@ section {
 .font {
   color: #1b0c0c;
   font-family: 'BebasNeuePro-SemiExpXBold';
-  font-size: 62.33px;
+  font-size: 63px;
   top: 15px;
   left: 30px;
   position: absolute;
@@ -91,7 +91,7 @@ section {
 .maintitle {
   color: white;
   font-family: 'BebasNeuePro-Bold';
-  font-size: 182.46px;
+  font-size: 183px;
   -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 5px;
   -webkit-text-stroke-color: #1b0c0c;
@@ -111,7 +111,7 @@ section {
 /* номер машины */
 .car-sign {
   width: 280px;
-  height: 113.81px;
+  height: 114px;
   top: -225px;
   position: relative;
   left: 330px;
@@ -121,14 +121,14 @@ section {
 }
 .car-sign p {
   font-family: 'BebasNeuePro-Regular';
-  font-size: 36.98px;
+  font-size: 37px;
   text-align: center;
   padding: 5px;
 }
 
 .car-sign h1 {
   font-family: 'BebasNeuePro-Bold';
-  font-size: 74.61px;
+  font-size: 75px;
   text-align: center;
   margin-top: -5px;
 }
@@ -143,7 +143,7 @@ section {
   height: 205px;
   width: 100%;
   background: url(../images/menu_header.svg);
-  font-size: 172.09px;
+  font-size: 172px;
   text-align: center;
   font-family: 'BebasNeuePro-ExpandedExtraBold';
   color: #ff123d;
@@ -178,7 +178,7 @@ section {
 }
 
 #left {
-  width: 644.5px;
+  width: 645px;
   height: 521px;
   background-image: url(../images/first_comic_box.svg);
   background-position: right;
@@ -188,7 +188,7 @@ section {
   flex-direction: column;
   align-content: baseline;
   flex-wrap: wrap;
-  font-size: 81.87px;
+  font-size: 82px;
   font-family: 'BebasNeuePro-Bold';
   margin-left: 40px;
 }
@@ -224,7 +224,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'BebasNeuePro-Bold';
-  font-size: 81.87px;
+  font-size: 82px;
   text-align: center;
 }
 #up h1 {
@@ -358,8 +358,8 @@ section {
   background: url(../images/greek_firstletter.png);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 96.41px;
-  height: 121.95px;
+  width: 97px;
+  height: 122px;
   position: absolute;
   left: 80px;
   top: 10px;
@@ -369,8 +369,8 @@ section {
   background: url(../images/greek_secondletter.png);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 123.11px;
-  height: 133.5px;
+  width: 123px;
+  height: 134px;
   position: absolute;
   left: 160px;
   top: 70px;
@@ -461,7 +461,7 @@ section {
   position: absolute;
   z-index: 1;
   background-image: url(../images/second_description_bubble.svg);
-  width: 845.27px;
+  width: 845px;
   height: 509px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -480,13 +480,18 @@ section {
   align-content: space-between;
   padding: 50px 30px;
 }
+.first_poster,
+.second_poster,
+.third_poster {
+  border: #1b0c0c 6px solid;
+  border-radius: 5px;
+  box-shadow: 12px 12px #1b0c0c;
+}
+
 .first_poster {
   width: 575px;
   height: 870px;
-  border: #1b0c0c 6px solid;
-  border-radius: 2%;
   background: url(../images/milkshake_poster.png);
-  box-shadow: 12px 12px #1b0c0c;
 }
 .first_poster h1 {
   color: #ff123d;
@@ -545,11 +550,8 @@ section {
 .second_poster {
   width: 635px;
   height: 320px;
-  border: #1b0c0c 6px solid;
-  border-radius: 2%;
   background: url(../images/rollers_poster.png);
   background-size: cover;
-  box-shadow: 12px 12px #1b0c0c;
 }
 
 .second_poster h2 {
@@ -588,13 +590,10 @@ section {
 .third_poster {
   width: 635px;
   height: 474px;
-  border: #1b0c0c 6px solid;
-  border-radius: 2%;
   background: url(../images/icepop_Poster.png);
   background-size: cover;
   position: relative;
   transform: rotate(-6deg);
-  box-shadow: 12px 12px #1b0c0c;
 }
 .third_poster h1 {
   font-family: 'BebasNeuePro-SemiExpBoldItalic';
@@ -674,25 +673,25 @@ section {
   border: #1b0c0c 15px solid;
 }
 .small_gum {
-  height: 192.61px;
-  width: 192.61px;
+  height: 193px;
+  width: 193px;
   left: 80px;
   font-size: 190px;
   transform: rotate(30deg);
   top: 80px;
 }
 .medium_gum {
-  height: 253.06px;
-  width: 253.06px;
+  height: 253px;
+  width: 253px;
   left: 350px;
   top: 150px;
-  font-size: 253.67px;
+  font-size: 254px;
   transform: rotate(-20deg);
 }
 
 .big_gum {
-  height: 416.3px;
-  width: 416.3px;
+  height: 416px;
+  width: 416px;
   left: 50px;
   top: 420px;
   font-size: 417px;
@@ -710,7 +709,7 @@ section {
   margin-left: 15px;
 }
 .glyphs_gummachine_screen main {
-  height: 1302.78px;
+  height: 1303px;
   width: 680px;
   position: absolute;
   right: 10px;
@@ -726,7 +725,7 @@ section {
   position: absolute;
   color: white;
   font-family: 'BebasNeuePro-ExpandedExtraBold';
-  font-size: 67.96px;
+  font-size: 68px;
 }
 
 .gummachine_сell {
@@ -748,7 +747,7 @@ section {
   background-color: #8dd3fa;
   position: relative;
   margin: 10px;
-  font-size: 120.29px;
+  font-size: 120px;
   font-family: 'BebasNeuePro-BoldItalic';
   color: white;
   text-align: center;
@@ -824,13 +823,13 @@ section {
 .soda_fountain_screen main {
   display: flex;
   width: 1380px;
-  height: 497.62px;
+  height: 498px;
   justify-content: space-evenly;
   margin-top: 200px;
 }
 .soda_fountain_screen > article > main > div {
-  width: 169.85px;
-  height: 497.62px;
+  width: 170px;
+  height: 498px;
   background: url(../images/soda_fountain.png);
 }
 .soda_fountain_screen p {
@@ -858,8 +857,8 @@ section {
 }
 .first_cup,
 .second_cup {
-  width: 152.28px;
-  height: 224.52px;
+  width: 152px;
+  height: 224px;
   background: url(../images/cup.svg);
   z-index: 1;
   margin-top: -165px;
@@ -887,23 +886,23 @@ section {
   font-family: 'BebasNeuePro-Light';
 }
 .first_cup h1 {
-  font-size: 87.91px;
+  font-size: 88px;
 }
 .first_cup h2 {
-  font-size: 62.14px;
+  font-size: 62px;
 }
 .first_cup h3 {
-  font-size: 56.54px;
+  font-size: 56px;
 }
 
 .second_cup h1 {
-  font-size: 118.75px;
+  font-size: 119px;
 }
 .second_cup h2 {
-  font-size: 81.2px;
+  font-size: 81px;
 }
 .second_cup h3 {
-  font-size: 73.76px;
+  font-size: 74px;
 }
 
 .first_cup h1:nth-of-type(1) {
@@ -979,7 +978,7 @@ section {
 .buble_header {
   position: absolute;
   z-index: 1;
-  width: 948.21px;
+  width: 949px;
   height: 579px;
   margin-left: 250px;
   margin-top: 50px;
@@ -988,7 +987,7 @@ section {
 }
 .buble_text {
   width: 527px;
-  height: 385.1px;
+  height: 385px;
   position: absolute;
   margin-left: 330px;
   margin-top: 120px;
@@ -1494,9 +1493,9 @@ section {
 }
 .end_title {
   width: 280px;
-  height: 40px;
+  height: 35px;
   position: relative;
-  margin: 410px auto 10px auto;
+  margin: 405px auto 5px auto;
   font-family: 'BebasNeuePro-ExpandedExtraBold';
   font-size: 32px;
   text-align: center;
@@ -1508,9 +1507,9 @@ section {
   display: flex;
   flex-wrap: wrap;
   height: 210px;
-  width: 210px;
+  width: 220px;
   position: absolute;
-  margin-left: 170px;
+  margin-left: 160px;
 }
 .buttons > div {
   height: 66px;
@@ -1521,7 +1520,8 @@ section {
   font-family: 'BebasNeuePro-ExpandedExtraBold';
   font-size: 60px;
   color: #1b0c0c;
-  padding: 5px 20px;
+  padding: 3px 20px;
+  margin: 3px;
 }
 footer {
   height: 348px;
