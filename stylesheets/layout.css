@@ -1273,8 +1273,8 @@ section {
   overflow: hidden;
   position: relative;
   border-radius: 100%;
-  border: 5px transparent solid;
-  border-image: url(../images/border.svg) 1 fill;
+  border: 8px transparent solid;
+  border-image: url(../images/border.png) 1 fill;
   border-image-outset: 38px;
   color: white;
 }
