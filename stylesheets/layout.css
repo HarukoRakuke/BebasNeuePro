@@ -10,7 +10,7 @@ body {
   position: relative;
 }
 section {
-  border: white solid 44px;
+  border: white solid 30px;
   box-sizing: border-box;
   margin: 0 auto;
   position: relative;
@@ -823,7 +823,7 @@ section {
 }
 .soda_fountain_screen main {
   display: flex;
-  width: 1350px;
+  width: 1380px;
   height: 497.62px;
   justify-content: space-evenly;
   margin-top: 200px;
@@ -869,7 +869,7 @@ section {
   left: 275px;
 }
 .second_cup {
-  right: 275px;
+  right: 280px;
 }
 .soda_fountain_screen h1,
 .soda_fountain_screen h2,
@@ -1458,15 +1458,15 @@ section {
   position: absolute;
   transform: rotate(20deg);
 }
-aside p,
-aside h1 {
+.last_screen p,
+.last_screen h1 {
   position: absolute;
   text-transform: uppercase;
   font-family: 'BebasNeuePro-SemiExpandedBold';
   padding-top: 21px;
   text-align: center;
 }
-aside p {
+.last_screen p {
   font-size: 33px;
 }
 .red_money p {
