@@ -1256,7 +1256,7 @@ section {
 
 .bottle_caps {
   height: 1142px;
-  background: white;
+  background: #1b0c0c;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
