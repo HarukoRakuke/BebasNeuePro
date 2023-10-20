@@ -147,7 +147,6 @@ section {
   text-align: center;
   font-family: 'BebasNeuePro-ExpandedExtraBold';
   color: #ff123d;
-  position: relative;
 }
 .menu_header h1 {
   padding: 15px;
@@ -203,12 +202,11 @@ section {
 }
 
 #right {
-  position: absolute;
+  position: relative;
   z-index: 1;
-  width: 430px;
+  width: 452px;
   height: 736px;
   margin-top: -90px;
-  right: 0;
   background-image: url(../images/menu_comic_buble.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -707,7 +705,7 @@ section {
   bottom: 140px;
   margin-left: 15px;
 }
-.glyphs_gummachine_screen main {
+.glyphs_gummachine_screen figure {
   height: 1303px;
   width: 680px;
   position: absolute;
@@ -1432,12 +1430,12 @@ section {
   background: url(../images/last_screen_background.svg);
   padding: 100px 20px;
 }
-.last_screen main,
+.last_screen figure,
 .last_screen aside {
   display: inline-block;
   position: relative;
 }
-.last_screen main {
+.last_screen figure {
   width: 560px;
   height: 860px;
   background: url(../images/cash_box.svg);
