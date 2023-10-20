@@ -69,3 +69,7 @@
   font-family: 'BebasNeuePro-ExpandedBold'; /* название шрифта */
   src: url(../fonts/BebasNeuePro-ExpandedBold.ttf); /* ссылка на файл */
 }
+@font-face {
+  font-family: 'BebasNeuePro-SemiExpandedBold'; /* название шрифта */
+  src: url(../fonts/BebasNeuePro-SemiExpBold.ttf); /* ссылка на файл */
+}

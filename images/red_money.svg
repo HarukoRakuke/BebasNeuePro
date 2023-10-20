@@ -1,0 +1,28 @@
+<svg width="512" height="278" viewBox="0 0 512 278" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_487_935)">
+<path d="M0 5.21065C0 2.33288 2.33289 0 5.21066 0L496.789 0C499.667 0 502 2.33289 502 5.21066V253.617C502 256.495 499.667 258.827 496.789 258.827H5.21066C2.33288 258.827 0 256.495 0 253.617L0 5.21065Z" fill="#FF123D"/>
+<rect x="11.4948" y="16.9186" width="477.028" height="228.458" rx="3.31257" fill="#1B0C0C" stroke="#1B0C0C" stroke-width="3.79618"/>
+<rect x="26.9469" y="30.0778" width="447.064" height="199.717" rx="3.31257" fill="#FF123D" stroke="#FF123D" stroke-width="3.79618"/>
+<ellipse cx="250.489" cy="129.228" rx="110.369" ry="91.1742" fill="white"/>
+<rect x="148.009" y="17.5543" width="204.936" height="40.0375" rx="3.31257" fill="white" stroke="#1B0C0C" stroke-width="3.79618"/>
+<rect x="56.6663" y="23.2698" width="48.435" height="100.618" rx="2.81485" stroke="#1B0C0C" stroke-width="4.79163"/>
+<rect x="390.125" y="137.382" width="47.9935" height="90.2215" rx="2.81485" stroke="#1B0C0C" stroke-width="4.79163"/>
+<rect x="483.226" y="57.7249" width="47.9935" height="102.698" rx="2.81485" transform="rotate(90 483.226 57.7249)" stroke="#1B0C0C" stroke-width="4.79163"/>
+<rect x="117.57" y="154.658" width="47.9935" height="94.0604" rx="2.81485" transform="rotate(90 117.57 154.658)" stroke="#1B0C0C" stroke-width="4.79163"/>
+<rect x="58.0599" y="77.8792" width="46.074" height="46.074" rx="2.81485" fill="white" stroke="#1B0C0C" stroke-width="4.79163"/>
+<rect x="71.4974" y="154.658" width="46.074" height="46.074" rx="2.81485" fill="white" stroke="#1B0C0C" stroke-width="4.79163"/>
+<rect x="380.529" y="58.6849" width="46.074" height="46.074" rx="2.81485" fill="white" stroke="#1B0C0C" stroke-width="4.79163"/>
+<rect x="391.086" y="137.382" width="46.074" height="46.074" rx="2.81485" fill="white" stroke="#1B0C0C" stroke-width="4.79163"/>
+</g>
+<defs>
+<filter id="filter0_d_487_935" x="0" y="0" width="511.559" height="277.945" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="9.55879" dy="19.1176"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.105882 0 0 0 0 0.0470588 0 0 0 0 0.0470588 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_487_935"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_487_935" result="shape"/>
+</filter>
+</defs>
+</svg>
