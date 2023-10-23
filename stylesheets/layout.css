@@ -10,7 +10,7 @@ body {
   position: relative;
 }
 section {
-  border: white solid 30px;
+  border: white solid 20px;
   box-sizing: border-box;
   margin: 0 auto;
   position: relative;
@@ -18,14 +18,13 @@ section {
 }
 /* секция с припаркованной машиной */
 .parkingscreen {
-  height: 1672px;
+  height: 1480px;
   background: url(../images/parking_back.svg);
 }
 .billboards {
   width: 934px;
   height: 450px;
-  margin: 0 auto;
-  margin-top: 70px;
+  margin: -45px 0 0 200px;
   position: relative;
 }
 .blue_billboard {
@@ -69,8 +68,8 @@ section {
   width: 929px;
   height: 700px;
   position: absolute;
-  bottom: 15px;
-  right: 70px;
+  bottom: -50px;
+  right: -10px;
 }
 .pro {
   color: #ff123d;
@@ -106,35 +105,36 @@ section {
   font-family: 'BebasNeuePro-BoldItalic';
   font-size: 77px;
   position: relative;
-  margin: 93px 0 0 78px;
+  left: 280px;
+  top: -30px;
 }
 /* номер машины */
 .car-sign {
-  width: 280px;
-  height: 114px;
-  top: -225px;
+  width: 250px;
+  height: 110px;
+  top: -220px;
   position: relative;
-  left: 330px;
+  left: 280px;
   color: #1b0c0c;
   background-color: white;
   border: #1b0c0c 7px solid;
 }
 .car-sign p {
   font-family: 'BebasNeuePro-Regular';
-  font-size: 37px;
+  font-size: 32px;
   text-align: center;
   padding: 5px;
 }
 
 .car-sign h1 {
   font-family: 'BebasNeuePro-Bold';
-  font-size: 75px;
+  font-size: 70px;
   text-align: center;
   margin-top: -5px;
 }
 /* секция с меню */
 .menu {
-  height: 1179px;
+  height: 930px;
   background-color: white;
   margin-top: -44px;
 }
@@ -150,78 +150,73 @@ section {
 }
 .menu_header h1 {
   padding: 15px;
+  margin-left: -40px;
 }
 .menu_main_part {
-  height: 681px;
+  height: 490px;
   width: 100%;
   background-color: #ff123d;
   display: flex;
   align-items: center;
+  margin-top: -30px;
 }
 
 .menu_item {
-  padding: 24px 0px 24px 50px;
+  padding: 22px 0px 10px 58px;
   color: #1b0c0c;
 }
 
 .menu_price {
-  padding: 24px 0px 24px 90px;
+  padding: 22px 0px 10px 70px;
   text-align: right;
   color: #ff123d;
 }
 
 #left,
 #center {
-  margin-top: -50px;
+  height: 428px;
 }
 
 #left {
-  width: 645px;
-  height: 521px;
+  width: 600px;
   background-image: url(../images/first_comic_box.svg);
-  background-position: right;
+  background-position: cover;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
   align-content: baseline;
   flex-wrap: wrap;
-  font-size: 82px;
+  font-size: 72px;
   font-family: 'BebasNeuePro-Bold';
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 #center {
   width: 374px;
-  height: 521px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: end;
-  margin-left: -90px;
+  align-items: flex-end;
+  margin-left: -100px;
 }
 
 #right {
   position: relative;
   z-index: 1;
-  width: 452px;
-  height: 736px;
-  margin-top: -90px;
+  width: 385px;
+  height: 650px;
+  margin: -120px 0px 0px 60px;
   background-image: url(../images/menu_comic_buble.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 #up {
-  width: 374px;
-  height: 293px;
+  width: 340px;
+  height: 229px;
   display: flex;
   justify-content: center;
   background-image: url(../images/second_comic_box.svg);
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover;
   font-family: 'BebasNeuePro-Bold';
-  font-size: 82px;
+  font-size: 75px;
   text-align: center;
 }
 #up h1 {
@@ -230,15 +225,13 @@ section {
 }
 
 #down {
-  width: 276px;
-  height: 186px;
+  width: 265px;
+  height: 170px;
   background-image: url(../images/third_comic_box.svg);
-  background-position: right;
-  background-repeat: no-repeat;
   display: flex;
 }
 #down img {
-  padding-left: 75px;
+  padding-left: 80px;
 }
 
 /* прозрачный прямоугольник внутри бабла */
@@ -249,33 +242,33 @@ section {
 
 /* разбивка текста на 4 ряда, т.к. они разной ширины */
 .bubble_div div:nth-of-type(1) {
-  font-size: 56px;
-  margin-top: 50px;
+  font-size: 50px;
+  margin-top: 30px;
   position: absolute;
   top: 70px;
   transform: rotate(-20deg);
-  left: 40px;
+  left: 35px;
 }
 .bubble_div div:nth-of-type(2) {
-  font-size: 85px;
+  font-size: 75px;
   position: absolute;
-  top: 170px;
+  top: 150px;
   transform: rotate(-20deg);
-  left: 70px;
+  left: 55px;
 }
 .bubble_div div:nth-of-type(3) {
-  font-size: 98px;
+  font-size: 84px;
   position: absolute;
-  top: 465px;
+  top: 400px;
   transform: rotate(20deg);
   right: 25px;
 }
 .bubble_div div:nth-of-type(4) {
-  font-size: 67px;
+  font-size: 58px;
   position: absolute;
-  top: 550px;
+  top: 480px;
   transform: rotate(20deg);
-  right: 50px;
+  right: 45px;
 }
 
 .menu_footer {
@@ -374,14 +367,14 @@ section {
 }
 /* экран с шрифтовой инфографикой (И/Я) */
 .letter_infographic_first {
-  height: 1475px;
+  height: 1188px;
 }
 .letters {
   display: flex;
   height: 100%;
   justify-content: space-between;
   align-items: center;
-  font-size: 780px;
+  font-size: 715px;
 }
 .letter_ya {
   color: #ff123d;
@@ -392,19 +385,20 @@ section {
 .letter_i {
   color: #8dd3fa;
   font-family: 'BebasNeuePro-ExpandedExtraBold';
-  padding-right: 30px;
+  padding-right: 70px;
   position: relative;
 }
 .letter_ya::before {
   content: url(../images/letter_ya_arrows.png);
-  right: 130px;
+  right: 120px;
+  top: 25px;
   position: absolute;
 }
 .letter_i::before {
   content: url(../images/letter_i_arrows.png);
   position: absolute;
-  top: 50px;
-  left: 20px;
+  top: 35px;
+  left: 15px;
 }
 .rib {
   width: 5px;
@@ -421,49 +415,48 @@ section {
   position: absolute;
   z-index: 1;
   background-image: url(../images/first_description_bubble.svg);
-  width: 649px;
-  height: 690px;
+  width: 549px;
+  height: 590px;
   background-size: contain;
   background-repeat: no-repeat;
-  right: 330px;
+  right: 430px;
   top: -50px;
 }
 
 .letter_infographic_first h2 {
   font-family: 'BebasNeuePro-BoldItalic';
-  font-size: 159px;
+  font-size: 120px;
   color: #1b0c0c;
 }
 .letter_infographic_first p {
   font-family: 'BebasNeuePro-Italic';
-  font-size: 50px;
+  font-size: 41px;
   color: #1b0c0c;
 }
 
 .first_description h2 {
-  padding: 90px 70px;
+  margin: 90px 0 0 70px;
 }
 
 .first_description p {
-  margin: -70px 90px;
+  margin-left: 70px;
 }
 .second_description h2 {
-  padding: 110px 250px;
+  margin: 240px 0 0 60px;
 }
 .second_description p {
-  margin-left: 280px;
-  margin-top: -90px;
+  margin-left: 60px;
 }
 .second_description {
   position: absolute;
   z-index: 1;
   background-image: url(../images/second_description_bubble.svg);
-  width: 845px;
-  height: 509px;
+  width: 590px;
+  height: 549px;
   background-size: contain;
   background-repeat: no-repeat;
-  left: 130px;
-  bottom: -150px;
+  left: 400px;
+  bottom: -50px;
 }
 
 /* экран с постерами  */
@@ -475,7 +468,7 @@ section {
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
-  padding: 50px 30px;
+  padding: 50px 45px;
 }
 .first_poster,
 .second_poster,
@@ -549,6 +542,8 @@ section {
   height: 320px;
   background: url(../images/rollers_poster.png);
   background-size: cover;
+  position: relative;
+  left: -20px;
 }
 
 .second_poster h2 {
@@ -590,7 +585,8 @@ section {
   background: url(../images/icepop_Poster.png);
   background-size: cover;
   position: relative;
-  transform: rotate(-6deg);
+  transform: rotate(-5deg);
+  bottom: 50px;
 }
 .third_poster h1 {
   font-family: 'BebasNeuePro-SemiExpBoldItalic';
@@ -647,7 +643,7 @@ section {
 
 /* экран с глифами в виде жвачек  */
 .glyphs_gummachine_screen {
-  height: 1414px;
+  height: 912px;
   background-image: url(../images/background_gum.png);
 }
 .glyphs_gummachine_screen h1 {
@@ -667,31 +663,31 @@ section {
   font-family: 'BebasNeuePro-BoldItalic';
   text-align: center;
   color: white;
-  border: #1b0c0c 15px solid;
+  border: #1b0c0c 10px solid;
 }
 .small_gum {
-  height: 193px;
-  width: 193px;
-  left: 80px;
-  font-size: 190px;
+  height: 152px;
+  width: 152px;
+  left: 624px;
+  font-size: 152px;
   transform: rotate(30deg);
-  top: 80px;
+  top: 218px;
 }
 .medium_gum {
-  height: 253px;
-  width: 253px;
-  left: 350px;
-  top: 150px;
-  font-size: 254px;
+  height: 200px;
+  width: 200px;
+  left: 437px;
+  top: 47px;
+  font-size: 200px;
   transform: rotate(-20deg);
 }
 
 .big_gum {
-  height: 416px;
-  width: 416px;
-  left: 50px;
-  top: 420px;
-  font-size: 417px;
+  height: 350px;
+  width: 350px;
+  left: 108px;
+  top: 170px;
+  font-size: 350px;
   transform: rotate(10deg);
 }
 .medium_gum p {
@@ -702,15 +698,15 @@ section {
   width: 690px;
   display: inline-block;
   position: absolute;
-  bottom: 140px;
-  margin-left: 15px;
+  bottom: 88px;
+  margin-left: 99px;
 }
 .glyphs_gummachine_screen figure {
-  height: 1303px;
-  width: 680px;
+  height: 927px;
+  width: 470px;
   position: absolute;
-  right: 10px;
-  top: 180px;
+  right: 80px;
+  top: 40px;
   background: url(../images/gum_machine.png);
   z-index: 1;
 }
@@ -718,18 +714,15 @@ section {
   width: 50px;
   height: 20px;
   top: 10px;
-  left: 210px;
+  left: 160px;
   position: absolute;
   color: white;
   font-family: 'BebasNeuePro-ExpandedExtraBold';
-  font-size: 68px;
+  font-size: 45px;
 }
 
 .gummachine_сell {
-  height: 560px;
-  width: 580px;
-  top: 260px;
-  left: 40px;
+  top: 176px;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -738,13 +731,13 @@ section {
   transform: rotate(15deg);
 }
 .gum_item {
-  height: 125px;
-  width: 125px;
+  height: 83px;
+  width: 83px;
   border-radius: 100%;
   background-color: #8dd3fa;
   position: relative;
   margin: 10px;
-  font-size: 120px;
+  font-size: 78px;
   font-family: 'BebasNeuePro-BoldItalic';
   color: white;
   text-align: center;
@@ -784,29 +777,24 @@ section {
 }
 
 .gum_item:nth-of-type(9) {
-  top: 115px;
-  left: 70px;
+  top: 98px;
+  left: 51px;
   transform: rotate(-50deg);
 }
 .gum_item:nth-of-type(9) > p {
   margin: -10px;
 }
-
-.gum_item:nth-of-type(10) {
-  top: -10px;
-  left: -10px;
-}
 .gum_item:nth-of-type(11) {
   transform: rotate(-50deg);
 }
 .gum_item:nth-of-type(12) {
-  right: 65px;
-  top: 105px;
+  right: 55px;
+  top: 99px;
   transform: rotate(-30deg);
 }
 .gum_item:nth-of-type(13) {
-  left: 8px;
-  top: 15px;
+  left: -6px;
+  top: 30px;
   transform: rotate(-10deg);
 }
 .gum_item:nth-of-type(13) > p {
@@ -814,15 +802,15 @@ section {
 }
 /* секция с напитками */
 .soda_fountain_screen {
-  height: 1232px;
-  margin-top: -44px;
+  height: 979px;
+  margin-top: -20px;
 }
 .soda_fountain_screen main {
   display: flex;
   width: 1380px;
   height: 498px;
   justify-content: space-evenly;
-  margin-top: 200px;
+  margin-top: 120px;
 }
 .soda_fountain_screen > article > main > div {
   width: 170px;
@@ -975,29 +963,27 @@ section {
 .buble_header {
   position: absolute;
   z-index: 1;
-  width: 949px;
-  height: 579px;
+  width: 810px;
+  height: 479px;
   margin-left: 250px;
-  margin-top: 50px;
+  margin-top: -50px;
   font-family: 'BebasNeuePro-ExpandedExtraBold';
   background: url(../images/buble_header.png);
 }
 .buble_text {
-  width: 527px;
-  height: 385px;
   position: absolute;
-  margin-left: 330px;
-  margin-top: 120px;
+  margin-left: 280px;
+  margin-top: 100px;
   transform: rotate(10deg);
 }
 .buble_text div:nth-of-type(1) {
-  font-size: 100px;
+  font-size: 84px;
 }
 .buble_text div:nth-of-type(2) {
-  font-size: 160px;
+  font-size: 134px;
 }
 .buble_text div:nth-of-type(3) {
-  font-size: 77px;
+  font-size: 65px;
 }
 /* экран с пинболлом и цифрами */
 .pinball_screen {
@@ -1151,8 +1137,8 @@ section {
 .score_table {
   width: 100px;
   height: 290px;
-  bottom: 220px;
-  left: 370px;
+  bottom: 252px;
+  left: 377px;
   position: absolute;
   color: white;
   font-family: 'BebasNeuePro-Bold';
@@ -1166,7 +1152,7 @@ section {
   color: white;
   font-family: 'BebasNeuePro-Bold';
   font-size: 120px;
-  bottom: 90px;
+  bottom: 110px;
   position: absolute;
   left: 380px;
 }
@@ -1200,9 +1186,8 @@ section {
   padding-top: 8px;
 }
 .levers {
-  width: 427px;
-  height: 127px;
-  bottom: 150px;
+  width: 450px;
+  bottom: 213px;
   left: 195px;
   position: absolute;
   display: flex;
@@ -1326,7 +1311,8 @@ section {
 }
 /* секция с разными широтами */
 .letter_a_infographic {
-  height: 1072px;
+  height: 953px;
+  margin-top: -20px;
 }
 .a_variations {
   height: 100%;
@@ -1338,7 +1324,7 @@ section {
 .bold_a {
   font-family: 'BebasNeuePro-Bold';
   position: relative;
-  margin-top: 230px;
+  margin-top: 180px;
   margin-left: 40px;
 }
 .bold_a::after {
@@ -1350,7 +1336,7 @@ section {
 .semiexpbold_a {
   font-family: 'BebasNeuePro-SemiExpandedBold';
   position: relative;
-  margin-top: -50px;
+  margin-top: -80px;
   margin-left: -110px;
 }
 .semiexpbold_a::after {
@@ -1363,7 +1349,7 @@ section {
 .expbold_a {
   font-family: 'BebasNeuePro-ExpandedBold';
   position: relative;
-  margin-top: 260px;
+  margin-top: 180px;
   right: 45px;
 }
 .expbold_a::after {
@@ -1402,31 +1388,32 @@ section {
 }
 .a_medium_buble {
   position: absolute;
-  width: 475px;
-  height: 320px;
-  bottom: 60px;
-  left: 500px;
+  width: 485px;
+  height: 280px;
+  bottom: 40px;
+  left: 450px;
   background: url(../images/medium_buble.svg);
   z-index: 1;
   font-size: 81px;
-  padding-top: 80px;
-  padding-left: 90px;
+  padding-top: 50px;
+  padding-left: 140px;
   text-align: center;
 }
 .a_big_buble {
   position: absolute;
-  width: 480px;
-  height: 445px;
-  top: 40px;
-  right: 110px;
+  width: 580px;
+  height: 345px;
+  top: -50px;
+  right: 80px;
   background: url(../images/big_bubble.svg);
   z-index: 1;
   font-size: 130px;
   padding: 80px 40px;
 }
+/* последний экран */
 .last_screen {
   height: 1140px;
-  margin-top: -44px;
+  margin-top: -20px;
   background: url(../images/last_screen_background.svg);
   padding: 100px 20px;
 }
@@ -1519,17 +1506,16 @@ section {
   margin: 3px;
 }
 footer {
-  height: 348px;
+  height: 190px;
   width: 1440px;
   position: relative;
   background-color: #ff123d;
-  padding: 80px 70px;
+  padding: 30px 70px;
   box-sizing: border-box;
-  margin-top: -44px;
 }
 .description {
   font-family: 'BebasNeuePro-ExpandedExtraBold';
-  font-size: 60px;
+  font-size: 40px;
   text-transform: uppercase;
   position: relative;
   display: inline-block;
@@ -1538,6 +1524,6 @@ footer {
 footer img {
   position: relative;
   display: inline-block;
-  left: 300px;
+  left: 600px;
   top: 6px;
 }
