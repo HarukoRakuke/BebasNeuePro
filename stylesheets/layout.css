@@ -853,7 +853,7 @@ section {
   left: 275px;
 }
 .second_cup {
-  right: 280px;
+  right: 305px;
 }
 .soda_fountain_screen h1,
 .soda_fountain_screen h2,
@@ -963,8 +963,8 @@ section {
 .buble_header {
   position: absolute;
   z-index: 1;
-  width: 810px;
-  height: 479px;
+  width: 804px;
+  height: 491px;
   margin-left: 250px;
   margin-top: -50px;
   font-family: 'BebasNeuePro-ExpandedExtraBold';
@@ -993,6 +993,7 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-top: -20px;
 }
 .pinball {
   width: 765px;
@@ -1242,7 +1243,7 @@ section {
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
-  padding: 30px;
+  padding: 66px;
   margin-top: -44px;
 }
 .bottle_caps > div {
