@@ -1,6 +1,5 @@
 html {
   background: #1b0c0c;
-  display: block;
 }
 body {
   width: 1440px;
@@ -10,8 +9,12 @@ body {
   position: relative;
 }
 section {
-  border: white solid 20px;
+  border-color: white;
   box-sizing: border-box;
+  border-style: solid;
+  border-top-width: 20px;
+  border-left-width: 20px;
+  border-right-width: 20px;
   margin: 0 auto;
   position: relative;
   width: 100%;
@@ -105,6 +108,7 @@ section {
   font-family: 'BebasNeuePro-BoldItalic';
   font-size: 77px;
   position: relative;
+  display: inline-block;
   left: 280px;
   top: -30px;
 }
@@ -134,9 +138,8 @@ section {
 }
 /* секция с меню */
 .menu {
-  height: 930px;
+  height: 919px;
   background-color: white;
-  margin-top: -44px;
 }
 /* верхняя шапка меню */
 .menu_header {
@@ -764,7 +767,7 @@ section {
 }
 .gum_item:nth-of-type(5) {
   top: 105px;
-  left: -20px;
+  left: -10px;
 }
 
 .gum_item:nth-of-type(7) > p {
@@ -803,7 +806,6 @@ section {
 /* секция с напитками */
 .soda_fountain_screen {
   height: 979px;
-  margin-top: -20px;
 }
 .soda_fountain_screen main {
   display: flex;
@@ -993,7 +995,6 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: -20px;
 }
 .pinball {
   width: 765px;
@@ -1235,6 +1236,7 @@ section {
   bottom: 380px;
   left: 122px;
 }
+/* секция с крышками от бутылок */
 
 .bottle_caps {
   height: 1142px;
@@ -1244,7 +1246,6 @@ section {
   justify-content: space-between;
   align-content: space-between;
   padding: 66px;
-  margin-top: -44px;
 }
 .bottle_caps > div {
   width: 220px;
@@ -1414,7 +1415,6 @@ section {
 /* последний экран */
 .last_screen {
   height: 1140px;
-  margin-top: -20px;
   background: url(../images/last_screen_background.svg);
   padding: 100px 20px;
 }
