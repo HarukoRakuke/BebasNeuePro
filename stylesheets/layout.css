@@ -183,7 +183,6 @@ section {
 #left {
   width: 600px;
   background-image: url(../images/first_comic_box.svg);
-  background-position: cover;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -807,14 +806,14 @@ section {
 .soda_fountain_screen {
   height: 979px;
 }
-.soda_fountain_screen main {
+.soda {
   display: flex;
   width: 1380px;
   height: 498px;
   justify-content: space-evenly;
   margin-top: 120px;
 }
-.soda_fountain_screen > article > main > div {
+.soda > div {
   width: 170px;
   height: 498px;
   background: url(../images/soda_fountain.png);

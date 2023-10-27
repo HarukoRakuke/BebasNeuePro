@@ -1,4 +1,5 @@
 @import url('reset.css');
+@import url('fonts.css');
 @import url('layout.css');
 
 /* палитра цветов:
@@ -6,70 +7,3 @@
 #FF123D - малиновый,
 #8DD3FA - голубой,
 */
-
-/* подключение шрифтов  */
-
-@font-face {
-  font-family: 'BebasNeuePro-Bold'; /* название шрифта */
-  src: url(../fonts/BebasNeuePro-Bold.ttf); /* ссылка на файл */
-}
-@font-face {
-  font-family: 'BebasNeuePro-SemiExpXBold'; /* название шрифта */
-  src: url(../fonts/BebasNeuePro-SemiExpXBold.ttf); /* ссылка на файл */
-}
-@font-face {
-  font-family: 'BebasNeuePro-Regular'; /* название шрифта */
-  src: url(../fonts/BebasNeuePro-Regular.ttf); /* ссылка на файл */
-}
-@font-face {
-  font-family: 'BebasNeuePro-ExpandedExtraBold'; /* название шрифта */
-  src: url(../fonts/BebasNeuePro-ExpandedExtraBold.ttf); /* ссылка на файл */
-}
-
-@font-face {
-  font-family: 'BebasNeuePro-Book'; /* название шрифта */
-  src: url(../fonts/BebasNeuePro-Book.ttf); /* ссылка на файл */
-}
-
-@font-face {
-  font-family: 'BebasNeuePro-Italic'; /* название шрифта */
-  src: url(../fonts/BebasNeuePro-Italic.ttf); /* ссылка на файл */
-}
-
-@font-face {
-  font-family: 'BebasNeuePro-BoldItalic'; /* название шрифта */
-  src: url(../fonts/BebasNeuePro-BoldItalic.ttf); /* ссылка на файл */
-}
-
-@font-face {
-  font-family: 'BebasNeuePro-BookItalic'; /* название шрифта */
-  src: url(../fonts/BebasNeuePro-BookItalic.ttf); /* ссылка на файл */
-}
-@font-face {
-  font-family: 'BebasNeuePro-ExpandedExtraBoldIt'; /* название шрифта */
-  src: url(../fonts/BebasNeueProExpandedExtraBoldIt.ttf); /* ссылка на файл */
-}
-@font-face {
-  font-family: 'BebasNeuePro-Light'; /* название шрифта */
-  src: url(../fonts/BebasNeuePro-Light.ttf); /* ссылка на файл */
-}
-@font-face {
-  font-family: 'BebasNeuePro-SemiExpBoldItalic'; /* название шрифта */
-  src: url(../fonts/BebasNeuePro-SemiExpBoldItalic.ttf); /* ссылка на файл */
-}
-@font-face {
-  font-family: 'BebasNeuePro-Middle'; /* название шрифта */
-  src: url(../fonts/BebasNeuePro-Middle.ttf); /* ссылка на файл */
-}
-@font-face {
-  font-family: 'BebasNeuePro-Thin'; /* название шрифта */
-  src: url(../fonts/BebasNeuePro-Thin.ttf); /* ссылка на файл */
-}
-@font-face {
-  font-family: 'BebasNeuePro-ExpandedBold'; /* название шрифта */
-  src: url(../fonts/BebasNeuePro-ExpandedBold.ttf); /* ссылка на файл */
-}
-@font-face {
-  font-family: 'BebasNeuePro-SemiExpandedBold'; /* название шрифта */
-  src: url(../fonts/BebasNeuePro-SemiExpBold.ttf); /* ссылка на файл */
-}
