@@ -94,7 +94,6 @@ section {
   color: white;
   font-family: 'BebasNeuePro-Bold';
   font-size: 183px;
-  -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 5px;
   -webkit-text-stroke-color: #1b0c0c;
   top: 170px;
@@ -210,6 +209,7 @@ section {
   height: 650px;
   margin: -120px 0px 0px 60px;
   background-image: url(../images/menu_comic_buble.svg);
+  background-repeat: no-repeat;
 }
 #up {
   width: 340px;
